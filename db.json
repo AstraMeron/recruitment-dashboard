@@ -1,37 +1,85 @@
 {
   "interviews": [
     {
-      "id": 1,
+      "id": "1",
       "candidate": "Alice",
       "jobRole": "Frontend Developer",
       "interviewer": "John",
       "start": "2025-07-16T08:00:00",
       "end": "2025-07-16T09:00:00"
+    },
+    {
+      "id": "a6d5",
+      "candidate": "Meron",
+      "role": "ML engineer",
+      "interviewer": "recruiter1",
+      "start": "2025-07-17T23:00:00.000Z",
+      "end": "2025-07-18T00:00:00.000Z"
     }
   ],
   "pipelineData": [
-    { "stage": "Applied", "count": 40 },
-    { "stage": "Phone Screen", "count": 25 },
-    { "stage": "Interview", "count": 10 },
-    { "stage": "Offer", "count": 5 },
-    { "stage": "Hired", "count": 2 }
+    {
+      "stage": "Applied",
+      "count": 40,
+      "id": "78f4"
+    },
+    {
+      "stage": "Phone Screen",
+      "count": 25,
+      "id": "355e"
+    },
+    {
+      "stage": "Interview",
+      "count": 10,
+      "id": "ac72"
+    },
+    {
+      "stage": "Offer",
+      "count": 5,
+      "id": "89a3"
+    },
+    {
+      "stage": "Hired",
+      "count": 2,
+      "id": "74cc"
+    }
   ],
   "timeToHireData": [
-    { "month": "Jan", "days": 20 },
-    { "month": "Feb", "days": 18 },
-    { "month": "Mar", "days": 15 },
-    { "month": "Apr", "days": 13 },
-    { "month": "May", "days": 14 }
+    {
+      "month": "Jan",
+      "days": 20,
+      "id": "647a"
+    },
+    {
+      "month": "Feb",
+      "days": 18,
+      "id": "7860"
+    },
+    {
+      "month": "Mar",
+      "days": 15,
+      "id": "758e"
+    },
+    {
+      "month": "Apr",
+      "days": 13,
+      "id": "8855"
+    },
+    {
+      "month": "May",
+      "days": 14,
+      "id": "9f4b"
+    }
   ],
   "logs": [
     {
-      "id": 1,
+      "id": "1",
       "timestamp": "2025-07-16 08:00",
       "user": "recruiter3",
       "action": "Hired candidate LMN"
     },
     {
-      "id": 2,
+      "id": "2",
       "timestamp": "2025-07-15 09:12",
       "user": "recruiter1",
       "action": "Added note to candidate DEF"
