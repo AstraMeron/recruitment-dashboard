@@ -1,0 +1,40 @@
+{
+  "interviews": [
+    {
+      "id": 1,
+      "candidate": "Alice",
+      "jobRole": "Frontend Developer",
+      "interviewer": "John",
+      "start": "2025-07-16T08:00:00",
+      "end": "2025-07-16T09:00:00"
+    }
+  ],
+  "pipelineData": [
+    { "stage": "Applied", "count": 40 },
+    { "stage": "Phone Screen", "count": 25 },
+    { "stage": "Interview", "count": 10 },
+    { "stage": "Offer", "count": 5 },
+    { "stage": "Hired", "count": 2 }
+  ],
+  "timeToHireData": [
+    { "month": "Jan", "days": 20 },
+    { "month": "Feb", "days": 18 },
+    { "month": "Mar", "days": 15 },
+    { "month": "Apr", "days": 13 },
+    { "month": "May", "days": 14 }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "timestamp": "2025-07-16 08:00",
+      "user": "recruiter3",
+      "action": "Hired candidate LMN"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-07-15 09:12",
+      "user": "recruiter1",
+      "action": "Added note to candidate DEF"
+    }
+  ]
+}
