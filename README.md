@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Recruitment Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern recruitment dashboard built with React, visualizing interview schedules, recruitment analytics, and audit logs.  
+Mock data is served via [json-server](https://github.com/typicode/json-server).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+[View the dashboard on Vercel](https://recruitment-dashboard-omega.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ How to Run the Project
 
-### `npm test`
+1. **Clone the repository**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/AstraMeron/recruitment-dashboard.git
+   cd recruitment-dashboard
+   ```
 
-### `npm run build`
+2. **Install dependencies**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the mock API server**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm run server
+   ```
+   The API will run at [http://localhost:3001](http://localhost:3001).
 
-### `npm run eject`
+4. **Start the React app**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
+   The app will run at [http://localhost:3000](http://localhost:3000).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> **Note:**  
+> The deployed demo uses the frontend only. For full data functionality, run the mock API locally as above.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✨ Key Features
 
-## Learn More
+- **Interview Calendar**: Visualizes upcoming interviews.
+- **Analytics Charts**: Shows recruitment pipeline and time-to-hire trends.
+- **Audit Log Table**: Displays system/user events, with search and filter.
+- **Mock API**: Uses `json-server` with editable `db.json` file for instant backend.
+- **Responsive Design**: Works on desktop and mobile devices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+/db.json
+/src
+  /components
+    InterviewCalendar.jsx
+    AnalyticsChart.jsx
+    AuditLogTable.jsx
+  App.js
+  ...
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📝 Mock Data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+All mock data is in `db.json` at the project root.  
+You can edit this file to add, remove, or modify interviews, analytics, or logs.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧑‍💻 Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [AstraMeron](https://github.com/AstraMeron)
