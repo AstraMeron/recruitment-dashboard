@@ -51,7 +51,7 @@ Mock data is served via [json-server](https://github.com/typicode/json-server).
 - **Analytics Charts**: Shows recruitment pipeline and time-to-hire trends.
 - **Audit Log Table**: Displays system/user events, with search and filter.
 - **Mock API**: Uses `json-server` with editable `db.json` file for instant backend.
-- **Responsive Design**: Works on desktop and mobile devices.
+
 
 ---
 
@@ -76,7 +76,3 @@ All mock data is in `db.json` at the project root.
 You can edit this file to add, remove, or modify interviews, analytics, or logs.
 
 ---
-
-## 🧑‍💻 Author
-
-- [AstraMeron](https://github.com/AstraMeron)
